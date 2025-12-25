@@ -32,3 +32,18 @@ npm install
 
 # Development Server starten
 npm run dev
+
+Öffne http://localhost:3000 im Browser.
+
+## 📝 Umgebungsvariablen
+
+Erstelle eine `.env` Datei im Root-Verzeichnis:
+
+```env
+MONGODB_URI=deine_mongodb_connection_string
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=dein_secret
+GOOGLE_ID=deine_google_client_id
+GOOGLE_SECRET=dein_google_client_secret
+```
+
